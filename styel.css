@@ -1,0 +1,170 @@
+  body {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        header {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUVhjH05ZKbmLj8D-ur8FrUuEMdvTzbmYFRg&s");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .menu {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            color: white;
+            margin-left: 100px;
+        }
+        .lbs {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            gap: 30px;
+        }
+        .lbs a {
+            text-decoration: none;
+            color: white;
+            transition: 0.5s ease;
+        }
+        .lbs a:hover {
+            color: rgb(185, 185, 185);
+        }
+        .isr {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid gray;
+            margin-right: 100px;
+        }
+        .isr input {
+            width: 250px;
+            height: 40px;
+            font-size: 16px;
+            padding-left: 10px;
+            border: none;
+            outline: none;
+        }
+        .isr img {
+            width: 20px;
+            margin-right: 15px;
+        }
+        .bs {
+            position: absolute;
+            left: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            flex-direction: column;
+            color: white;
+        }
+        .bs button {
+            color: black;
+            font-weight: bold;
+            background-color: green;
+            border: none;
+            padding: 10px;
+            margin-top: 30px;
+            transition: 1s ease;
+        }
+        .bs button:hover {
+            background-color: rgb(124, 187, 29);
+            transform: scale(1.1);
+        }
+        .shs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .shb {
+            width: 95%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            gap: 50px;
+            margin: 30px 0;
+        }
+        .box {
+            width: 300px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: 0 7px 20px -5px rgb(68, 68, 68);
+        }
+        .box h2 {
+            margin: 10px 30px;
+            font-size: 20px;
+        }
+        .box p {
+            display: flex;
+            align-items: baseline;
+            justify-content: baseline;
+            margin-bottom: 20px;
+            cursor: pointer;
+        }
+        .bcs {
+            width: 100%;
+            height: 160px;
+        }
+        .rs {
+            width: 20px;
+        }
+        .train {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cen {
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 0 10px rgb(161, 161, 161);
+        }
+        .cen img {
+            width: 600px;
+        }
+        .gtr {
+            width: 350px;
+        }
+        .gtr h1 {
+            color: green;
+            font-size: 40px;
+        }
+        .gtr button {
+            background-color: green;
+            font-weight: bold;
+            font-size: 17px;
+            padding: 20px;
+            border: none;
+            transition: 1s ease;
+        }
+        .gtr button:hover {
+            background-color: rgb(124, 187, 29);
+            transform: scale(1.1);
+        }
+        footer {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+        }
+        footer img {
+            width: 160px;
+        }
+        footer h1 {
+            font-size: 22px;
+        }
